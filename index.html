@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitTrendX: Explore, Compare & Save Trending GitHub Repos</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>GitTrendX: Explore, Compare & Save Trending GitHub Repos</h1>
+    <div class="controls">
+      <input type="text" id="languageInput" placeholder="Enter language (e.g. Java)" />
+      <select id="sortSelect">
+        <option value="default">Sort By</option>
+        <option value="stars-desc">Stars (High to Low)</option>
+        <option value="stars-asc">Stars (Low to High)</option>
+        <option value="name-asc">Name (A-Z)</option>
+      </select>
+      <input type="text" id="searchBar" placeholder="Search by name or author..." />
+      <button id="themeToggle">🌙 Dark Mode</button>
+      <button id="toggleFavorites">Show Favorites</button>
+    </div>
+  </header>
+
+  <main id="repoContainer"></main>
+
+  <div class="pagination">
+    <button id="prevPage">⏮️ Previous</button>
+    <span id="pageIndicator">Page 1</span>
+    <button id="nextPage">Next ⏭️</button>
+  </div>
+
+  <section class="chart-section">
+    <h2>Language Distribution</h2>
+    <canvas id="languageChart" width="300" height="150"></canvas>
+  </section>
+
+  <section class="compare-section">
+    <h2>🧠 Trending Comparison</h2>
+    <div class="compare-inputs">
+      <input type="text" id="lang1" placeholder="Language 1" />
+      <input type="text" id="lang2" placeholder="Language 2" />
+      <button id="compareBtn">Compare</button>
+    </div>
+    <div id="comparisonResults">
+      <div class="column" id="lang1Results"></div>
+      <div class="column" id="lang2Results"></div>
+    </div>
+  </section>
+
+  <section class="favorites-section" style="display:none">
+    <h2>⭐ My Favorites</h2>
+    <div id="favoritesContainer"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

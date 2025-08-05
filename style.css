@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  background: #24292e;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.controls select,
+.controls input,
+.controls button {
+  padding: 0.5em;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 2em;
+  justify-content: center;
+}
+
+.repo-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1em;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: background 0.3s, color 0.3s;
+}
+
+.repo-card a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.repo-card a:hover {
+  text-decoration: underline;
+}
+
+.repo-card button {
+  margin: 0.3em 0.25em;
+  padding: 0.4em 0.7em;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.pagination {
+  text-align: center;
+  margin: 2em;
+}
+
+.pagination button {
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.chart-section, .favorites-section, .compare-section {
+  padding: 2em;
+  text-align: center;
+}
+
+#languageChart {
+  max-width: 300px;
+  margin: auto;
+}
+
+.compare-inputs {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+
+#comparisonResults {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+.dark-mode .repo-card {
+  background-color: #2e2e2e;
+  border-color: #555;
+}
+
+.dark-mode a {
+  color: #58a6ff;
+}
+
+.dark-mode header {
+  background-color: #111;
+}
+
+button {
+  border: none;
+  background-color: #0366d6;
+  color: white;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #024fba;
+}
