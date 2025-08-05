@@ -14,7 +14,8 @@ Explore, compare, and save trending GitHub repositories by programming language 
 
 ## 📦 Live Demo
 
-_(Will appear here after GitHub Pages is enabled)_
+Check out the live version of the project here:  
+👉 [GitTrendX Live Demo](https://Thakare07.github.io/gittrendx/)
 
 ## 🛠️ Built With
 
