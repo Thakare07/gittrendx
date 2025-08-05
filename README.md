@@ -36,7 +36,7 @@ MIT License
 
 GitTrendX is a modern web-based GitHub trending explorer that allows you to explore popular repositories by programming language, compare trends between two languages, visualize language distribution, and save your favorite repositories — all in a responsive and dark-mode enabled UI.
 
-![Screenshot](https://raw.githubusercontent.com/Thakare07/gittrendx/main/screenshots/ss1.png) <!-- Replace with actual GitHub path if needed -->
+![Screenshot](https://raw.githubusercontent.com/Thakare07/gittrendx/main/screenshots/ss1 (2).png) <!-- Replace with actual GitHub path if needed -->
 
 ---
 
@@ -57,7 +57,7 @@ GitTrendX is a modern web-based GitHub trending explorer that allows you to expl
 
 | Explore View | Language Distribution | Comparison Mode |
 |--------------|-----------------------|-----------------|
-| ![Explore](https://raw.githubusercontent.com/Thakare07/gittrendx/main/screenshots/ss1.png) | ![Chart](https://raw.githubusercontent.com/Thakare07/gittrendx/main/screenshots/ss2.png) | ![Compare](https://raw.githubusercontent.com/Thakare07/gittrendx/main/screenshots/ss3.png) |
+| ![Explore](https://raw.githubusercontent.com/Thakare07/gittrendx/main/screenshots/ss1 (2).png) | ![Chart](https://raw.githubusercontent.com/Thakare07/gittrendx/main/screenshots/ss2.png) | ![Compare](https://raw.githubusercontent.com/Thakare07/gittrendx/main/screenshots/ss3.png) |
 
 > Replace the image URLs with your actual GitHub image paths after uploading.
 
